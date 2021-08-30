@@ -2,7 +2,7 @@ import fs from 'fs'
 import csvParse from "csv-parse"
 import parse from 'csv-parse'
 import { IcategoryRepository } from '../../repositories/ICategoryRepository'
-import { Category } from '../../model/category'
+import { Category } from '../../entities/category'
 
 interface IImportCategory{
     name:string
